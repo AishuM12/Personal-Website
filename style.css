@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to bottom right, #FAF5EF, #FDF5E6); /* used ChatGPT to find the shade */
+    margin: 0;
+    padding: 0;
+  }
+.card-img-top {
+    height: 250px; 
+    object-fit: cover;
+  }
+  .btn-journal {
+    background-color: #EADDC7; /* used ChatGPT for styling */
+    color: #2F2F2F;             
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .btn-journal:hover {             /* used ChatGPT for styling */
+    background-color: #d8c3a5;
+    color: #000000;
+  }
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .section-heading {     /* used ChatGPT for styling */
+    color: #3D4A24;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  

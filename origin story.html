@@ -5,32 +5,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Travel Ledger</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> <!--bootstrap link-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet"> <!--link for fonts-->
+    <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
    
+
   <!--NAV BAR (open)-->
   <!--Src: https://getbootstrap.com/docs/5.3/components/navs-tabs/
-    Modified styling with the help ChatGPT-->
+    Used ChatGPT to make the nav bar titles equidistant-->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link px-5" href="#about-us">ORIGIN STORY</a>
-            <a class="nav-link px-5" href="menu.html">TRAVEL</a>
-            <a class="nav-link px-5" href="#">CONNECT</a>
+  <!--NAV BAR (open)-->
+  <!--Src: https://getbootstrap.com/docs/5.3/components/navs-tabs/
+    Used ChatGPT to make style changes-->
+
+    <nav class="navbar navbar-expand-lg style="background-color: #FAF5EF;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link px-5" href="index1.html">HOME</a>
+              <a class="nav-link px-5" href="origin story.html">ORIGIN STORY</a>
+              <a class="nav-link px-5" href="travel.html">TRAVEL</a>
+              <a class="nav-link px-5" href="future plans.html">FUTURE PLANS</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   <!--NAV BAR (close)-->
 
+
+    <!--PAGE CONTENT: ORIGIN STORY-->
+
+    <div class="container my-5 px-4">
+      <div class="row">
+        <div class="col-md-7">
+          <h3 class="mb-3">Why this website?</h3>
+          <p>
+            I’ve never been a fan of social media. The constant sharing, the pressure to keep up – it never felt like me. 
+            But even with that, I’ve always had this quiet desire to document my travels. To gather the little moments, 
+            the places, the people, and how it all made me feel.
+          </p>
+          <p>
+            For years, I kept telling myself I’d make something – maybe a journal, maybe a website. I just never got around to it. 
+            Other things always took up space.
+          </p>
+          <p>
+            This assignment gave me a reason to finally begin. And I want to name that, because inspiration shows up in unexpected ways. 
+            It’s funny how something that starts as coursework can spark something so personal. So here I am, starting this space 
+            not for the internet, but for myself. And maybe one day, for my kids.
+          </p>
+
+          <!-- Image -->
+      <div class="col-md-5 text-center">
+        <img src="images/about-website.jpg" alt="Travel memory" class="img-fluid about-image">
+      </div>
+    </div>
+  </div>
+
+    <!--PAGE CONTENT: ORIGIN STORY-->
 
 
   </body>
