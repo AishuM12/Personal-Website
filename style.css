@@ -41,3 +41,19 @@ body {
   {
     height: 660px;
   }
+
+  .origin-divider {
+  border-top: 3px double #333;
+  border-bottom: 3px double #333;
+  padding: 1rem 2rem;
+  margin-top: 1rem;   /* adjust this as needed */
+  margin-bottom: 5rem;
+  }
+  
+  .origin-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+ 
