@@ -56,4 +56,11 @@ body {
     font-size: 1.1rem;
     line-height: 1.7;
   }
- 
+  @media (max-width: 760px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  }
