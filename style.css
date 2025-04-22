@@ -29,8 +29,15 @@ body {
     color: #3D4A24;
     font-weight: 400;
     margin-bottom: 1.5rem;
-    
     display: inline-block;
     padding-bottom: 0.5rem;
   }
-  
+  .carousel-item img {
+    height: 660px; /* or adjust to your preference */
+    object-fit: cover;
+    width: 100%;
+  }
+  .img-fluid
+  {
+    height: 660px;
+  }
